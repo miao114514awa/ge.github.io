@@ -2,9 +2,6 @@
 <html lang="zh">
 
 <head>
-    <script async src = "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" >
-    </script>
-    
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -298,16 +295,82 @@
                         </ul>
                     </li>
                 </ul>
-                <ul class="user-info-menu right-links list-inline list-unstyled">
-                    <li class="hidden-sm hidden-xs">
-                        <a href="https://github.com/WebStackPage/WebStackPage.github.io" target="_blank">
-                            <i class="fa-github"></i>  GitHub
-                        </a>
-                    </li>
-                </ul>
-                <!-- <a href="https://github.com/WebStackPage/WebStackPage.github.io" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a> -->
+                
 
             </nav>
+            <div id="search" class="s-search">
+                <div id="search-list" class="hide-type-list">
+                    <div class="search-group group-a s-current"><span class="type-text">搜索</span>
+                        <ul class="search-type">
+
+                            <li>
+                                <input checked="" hidden="" type="radio" name="type" id="type-baidu" value="https://www.baidu.com/s?wd=" data-placeholder="百度一下，你就知道">
+                                <label for="type-baidu">
+                                    <span style="color:#2529d8">百度</span>
+                                </label>
+                            </li>
+
+                            <li>
+                                <input hidden="" type="radio" name="type" id="type-google" value="https://www.google.com/search?q=" data-placeholder="Don't be evil 👾">
+                                <label for="type-google">
+                                    <span style="color:#4285f4">G</span>
+                                    <span style="color:#ea4335">o</span>
+                                    <span style="color:#fbbc05">o</span>
+                                    <span style="color:#4285f4">g</span>
+                                    <span style="color:#34a853">l</span>
+                                    <span style="color:#ea4335">e</span>
+                                </label>
+                            </li>
+
+                            <li>
+                                <input hidden="" type="radio" name="type" id="type-github" value="https://github.com/search?q=" data-placeholder="How people build software">
+                                <label for="type-github">
+                                    <span style="color:#333">Github</span>
+                                </label>
+                            </li>
+
+                            <li>
+                                <input hidden="" type="radio" name="type" id="type-bing1" value="https://cn.bing.com/search?q=" data-placeholder="Bing is for doing">
+                                <label for="type-bing1">
+                                    <span style="color:#0C8484">Bing</span>
+                                </label>
+                            </li>
+
+                            <!-- <li>
+                                <input hidden="" type="radio" name="type" id="type-mj" value="https://mijisou.com/?q=" data-placeholder=" 不追踪你的搜索引擎">
+                                <label for="type-mj">
+                                    <span style="color:#464646">秘迹</span>
+                                </label>
+                            </li>
+
+                            <li>
+                                <input hidden="" type="radio" name="type" id="type-ddg" value="https://duckduckgo.com/?q=" data-placeholder="隐私保护，化繁为简 👾">
+                                <label for="type-ddg">
+                                    <span style="color:#DE5833">DDG</span>
+                                </label>
+                            </li> -->
+
+                            <li>
+                                <input hidden="" type="radio" name="type" id="type-volf" value="https://www.yuque.com/volfdynamic/volfclub-wiki/s?q=" data-placeholder="祝你工作顺利">
+                                <label for="type-volf">
+                                    <span style="color:#515c6b">关于本站</span>
+                                </label>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <form action="https://www.baidu.com/s?wd=" method="get" target="_blank" id="super-search-fm">
+                    <input type="text" id="search-text" placeholder="百度一下，你就知道" style="color: #0C8484;border: none;background: none;outline: none;cursor: pointer;width: 90%;height: 30px;padding: 0 10px;font-size: 14px;">
+                    <button type="submit" style="color: #4285f4;border: none;background: none;outline: none;cursor: pointer;">
+                        <i class="fa fa-search "></i>
+                    </button>
+                </form>
+                <div class="set-check hidden-xs">
+                    <input type="checkbox" id="set-search-blank" class="bubble-3" autocomplete="off">
+                </div>
+
+            </div>
             <!-- 常用推荐 -->
             <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="常用推荐"></i>常用推荐</h4>
             <div class="row">
