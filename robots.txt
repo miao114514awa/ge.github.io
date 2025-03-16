@@ -1,0 +1,13 @@
+# Robots.txt file from https://nav.culip.top
+
+User-agent: *
+Disallow: /assets/images
+
+
+
+
+
+
+
+
+
